@@ -13,6 +13,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+<img width="950" height="427" alt="Screenshot 2026-08-04 173054" src="https://github.com/user-attachments/assets/c160cb0a-a4ec-481c-a600-02296c672587" />
+
+<img width="947" height="448" alt="Screenshot 2026-08-04 173107" src="https://github.com/user-attachments/assets/1cc5e438-ec2b-4cc8-a52e-c1387b9591ba" />
+<img width="949" height="432" alt="Screenshot 2026-08-04 173130" src="https://github.com/user-attachments/assets/09fde5c9-9d07-4006-bc6d-3f2b3bf5f369" />
+
+
 
 
 ### `npm run build`

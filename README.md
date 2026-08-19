@@ -1,3 +1,7 @@
+<img width="947" height="434" alt="Screenshot 2026-08-19 134900" src="https://github.com/user-attachments/assets/70cc5a6f-e754-4642-8c44-36fb440c0047" />
+<img width="938" height="432" alt="Screenshot 2026-08-04 173143" src="https://github.com/user-attachments/assets/e804e1a4-fcfd-4658-8753-6323484ca060" />
+<img width="952" height="438" alt="Screenshot 2026-08-19 134839" src="https://github.com/user-attachments/assets/6a660ddf-a072-4963-8775-cdb555501d3c" />
+<img width="949" height="432" alt="Screenshot 2026-08-04 173130" src="https://github.com/user-attachments/assets/f66f0384-d17f-427e-8b62-48d277d2de63" />
 # 3D Shapes Playground — Three.js Proof of Concept
 
 An interactive proof of concept exploring 3D rendering in the browser with **React Three Fiber**, **Three.js**, and **MUI**. The app renders multiple 3D shapes on a canvas, lets users create and rotate them, and exposes controls to customize each shape's dimensions and axis in real time.

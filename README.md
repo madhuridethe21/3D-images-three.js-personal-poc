@@ -1,72 +1,90 @@
-<<<<<<< HEAD
-# gizil-case-study
+# 3D Shapes Playground — Three.js Proof of Concept
 
-Objective :
-3D visualization and control of shapes added to a table by the user on a canvas element.
+An interactive proof of concept exploring 3D rendering in the browser with **React Three Fiber**, **Three.js**, and **MUI**. The app renders multiple 3D shapes on a canvas, lets users create and rotate them, and exposes controls to customize each shape's dimensions and axis in real time.
 
-This Project inlcudes the case study from Gizil GMBH, which inlcudes the table which conatins the shapes and shape name created user.
-It also gives the user user customize the shape dimensions and the axis of the shaes.
+> Built as a self-directed learning project to gain hands-on experience with WebGL-based 3D rendering and interactive UI controls — a foundation for using Three.js in production frontend work.
 
-1. A table will appear on the page to display the created shapes. At the top of the table, 
-there will be a button for creating a new shape record and for rendering the records on 
-the canvas. Each table entry can be deleted.
-2. When the Create button is pressed, a modal will open to allow the creation of a new 
-record. Records will be stored in local storage, ensuring they are preserved when the 
-browser is closed and reopened.
-3. When the Render button is pressed, the table and action buttons will be hidden, and a 
-canvas element will appear on the screen. Within this canvas element, all the shapes 
-present in the table will be rendered side by side in 3D. 
-4. When a shape is clicked, its name will be displayed at the top, its dimensions can be 
-changed, and it can be moved along the x, y, and z axes. 
-5. When the close button located at the top right is pressed, the canvas will be hidden, 
-and the table and action buttons will become visible again. 
-6. If the render button inside a table entry is clicked, only that specific table entry should 
-be rendered on the canvas, and the actions in step 4 should be applicable.
+## Features
 
-### Technologies 
-React, threejs, Material UI elements.
+- 🔺 Render multiple 3D shapes on an HTML canvas, built declaratively with React Three Fiber on top of Three.js
+- 🔄 Real-time rotation of individual shapes
+- 📋 A shapes table (MUI X Data Grid) listing every shape a user creates, along with its name and properties
+- 🎛️ Custom controls to adjust shape dimensions and rotation axis per shape
+- 🎨 UI built with MUI (Material UI) components on top of React
 
-### `npm i`
-Run this command after cloning the Repository, This will install all the packages included in the package.json
-=======
-#Three.Js POC
+## Tech Stack
 
-This Project inlcudes the POC of three.Js 3d images on cavas also includes the rotation of diferent 3D shapes, which inlcudes the table which conatins the shapes and shape name created user.
-It also gives the user user customize the shape dimensions and the axis of the shaes.
+| Layer         | Technology |
+|---------------|------------|
+| 3D Rendering  | [Three.js](https://threejs.org/) via [React Three Fiber](https://github.com/pmndrs/react-three-fiber) |
+| Framework     | [React 18](https://react.dev/) (Create React App / react-scripts) |
+| UI Components | [MUI (Material UI) v6](https://mui.com/) |
+| Data Table    | [MUI X Data Grid](https://mui.com/x/react-data-grid/) |
+| Styling Engine| [Emotion](https://emotion.sh/) |
+| Testing       | React Testing Library, Jest DOM |
 
-Technologies 
-React, threejs, Material UI elements.
->>>>>>> 79f0e2ef15d2cf81bb17dcfa3889cc8712cbb93b
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- npm (comes bundled with Node.js)
 
-<<<<<<< HEAD
-=======
-<img width="950" height="427" alt="Screenshot 2026-08-04 173054" src="https://github.com/user-attachments/assets/c160cb0a-a4ec-481c-a600-02296c672587" />
+### Installation
 
-<img width="947" height="448" alt="Screenshot 2026-08-04 173107" src="https://github.com/user-attachments/assets/1cc5e438-ec2b-4cc8-a52e-c1387b9591ba" />
-<img width="949" height="432" alt="Screenshot 2026-08-04 173130" src="https://github.com/user-attachments/assets/09fde5c9-9d07-4006-bc6d-3f2b3bf5f369" />
+```bash
+git clone https://github.com/madhuridethe21/3D-images-three.js-personal-poc.git
+cd 3D-images-three.js-personal-poc
+npm install
+```
 
+### Run in development mode
 
->>>>>>> 79f0e2ef15d2cf81bb17dcfa3889cc8712cbb93b
+```bash
+npm start
+```
 
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page reloads automatically on changes, and lint warnings/errors appear in the console.
 
-### `npm run build`
+### Run tests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-<<<<<<< HEAD
-=======
+Launches the test runner in interactive watch mode using React Testing Library and Jest DOM.
 
+### Build for production
 
+```bash
+npm run build
+```
 
+Bundles the app in production mode and outputs an optimized, minified build to the `build/` folder, with fingerprinted filenames — ready to deploy.
 
->>>>>>> 79f0e2ef15d2cf81bb17dcfa3889cc8712cbb93b
+## Usage
+
+1. Launch the app and select a shape type to add it to the canvas.
+2. Give the shape a name — it appears in the shapes data grid alongside its properties.
+3. Use the provided controls to adjust the shape's dimensions and rotation axis.
+4. Watch the shape update and rotate on the canvas in real time.
+
+## Project Goals
+
+This project was built to:
+
+- Get hands-on with Three.js fundamentals — scenes, meshes, geometries, and animation loops
+- Practice wiring 3D rendering into a declarative React component tree using React Three Fiber
+- Build reusable, controlled MUI components (including a data grid) for manipulating 3D state
+
+## Roadmap / Ideas for Extension
+
+- [ ] Add more shape types (torus, cone, custom geometries)
+- [ ] Persist shapes to local storage
+- [ ] Add lighting and material controls
+- [ ] Integrate GSAP for more advanced animation sequencing
+
+## Author
+
+**Madhuri Dethe**
+[GitHub](https://github.com/madhuridethe21)
